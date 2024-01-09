@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <script class="u-script" type="text/javascript" src="/karisim/searchbox.js" defer=""></script>
+    <script src="/karisim/particles.js"></script>
+    <link rel="stylesheet" href="/karisim/search.css" media="screen">
+    <link rel="stylesheet" href="/karisim/tablo.css" media="screen">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tektur&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous"/>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="search.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+</script>
+</head>
+<body>
+    <div class="box">
+        <form name="search">
+            <input id="myInput" type="text" class="input" name="txt" onmouseout="this.value = ''; this.blur();">
+        </form>
+        <i class="fas fa-search"></i>
+    </div>
+    <table class="table table-bordered table-hover table-striped table-sm">
+        <thead>
+            <tr>
+                <th>Karışımın Adı</th>
+                <th>Nedir</th>
+                <th>Daha detaylı bilgi için</th>
+            </tr>
+        </thead>
+        <tbody id="myTable">
+            <tr>
+                <td>Deniz Suyu</td>
+                <td>Dünyadaki bütün okyanuslardaki ortalama tuzluluk yaklaşık %3.5'tur. Bu oran, her bir kilogram (ya da litre) deniz suyuda yaklaşık 35 gram çözünmüş tuz (çoğunluğu sodyum klörür iyonları olan Na+ ve Cl-) içeriğini belirtir.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Deniz_suyu">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Tatlı Şerbeti</td>
+                <td>Şerbet, başta baklava olmak üzere birçok hamur tatlısında tatlandırıcı olarak kullanılır. Tatlı şerbetleri çoğunlukla kaynatılmış su ve şeker ile yapılır.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Şerbet">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Ayran</td>
+                <td>Ayran, yoğurdun içine su katılarak elde edilen bir tür içecek. Türk mutfağına ait olan en yaygın içeceklerdendir. Türkiye, Ermenistan, Azerbeycan, İran, Lübnan, Bulgaristan ve diğer bazı Balkan ülkeleriyle Orta Doğu ve Orta Asya (Türki Cumhuriyetler) ülkelerinde yapılır.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Ayran">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Duman</td>
+                <td>Duman, bir maddenin yanması ile çıkan ve içinde katı zerrelerle buğu bulunan kara veya esmer renkli gazdır.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Duman">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Hava</td>
+                <td>Hava; Dünya'yı çevreleyen, çoğunluğu azot ve oksijenden oluşmuş,renksiz ve kokusuz gaz kütlesi. Hava tüm canlılar için hayati öneme sahiptir. Hayvanlar, bitkiler ve insanlar havasız bir ortamda yaşayamazlar.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Hava">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Gazoz</td>
+                <td>Gazoz, aynı zamanda Avusturalya ve Yeni Zelanda'da limonata olarak bilinen, Japonya ve Kore'de elma şarabı olarak da bilinen limonata içecekler limon ve misket limonu aromalı karbonatlı meşrubat içeceklerdir.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Gazoz">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Mazot - Su</td>
+                <td>Ham petrolün damıtılması sırasında 200-300 °C kaynama aralığında alınan üçüncü ana ürün motorindir. Motorin dizel motoru yakıtıdır.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Mazot">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Yağ - Su</td>
+                <td>Yağiy, oda sıcaklığında yüksek viskoziteye sahip, yüksek miktarda karbon ve hidrojen içeren, suyla karışmayan ancak diğer yağlarla kolayca karışabilen maddelerdir. Yağlar yiyecek, yakıt, boya, gıda sanayi dâhil birçok değişik amaçla kullanılırlar.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Yağ">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Naftalin - Su</td>
+                <td>Naftalin veya naftalen, kapalı kimyasal formülü C10H8 olan, aromatik hidrokarbondur.Maden kömürünün damıtılmasıyla elde edilen orta ve ağır yağlardan ayrıştırılır. Beyaz pulcuklar biçiminde, billur yapılı bir katıdır. Keskin ve kendine özgü bir kokusu vardır.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Naftalin">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Buğday - Saman</td>
+                <td>Triticum aestivum (buğday), Triticum cinsine bağlı bütün dünyada ıslahı yapılmış tek yıllık otsu bitki türüdür. Değişik araştırmacıların yaptıkları araştırmaların ışığında buğdayın gen merkezi olarak Güney Türkmenistan Anadolu, Batı İran ve Kafkasya kabul edilir.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Buğday">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Sis</td>
+                <td>Sis, yatay görüş mesafesini 1 km'nin altına düşüren bir hava olayıdır.Stratüs bulutlarının yerde veya yere yakın seviyede oluşması olarak da bilinir. Hava içindeki su buharının yoğuşması veya donarak kristalleşmesi sonucu ortaya çıkan çok küçük su damlacıkları veya buz kristallerinden meydana gelir.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Sis">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Alaşım</td>
+                <td>Alaşım, bir metal elementin en az bir başka element (metal, ametal) ile birleşmesiyle oluşan homojen karışımıdır. Elde edilen malzeme yine metal karakterli malzeme olur. Alaşımlar karışıma giren metallerin özelliklerinden farklı özellikler gösterirler. En bilinen alaşımlara; tunç (bakır-kalay), pirinç (bakır-çinko), lehim (kalay-kurşun) ve cıva alaşımları olan amalgamlar örnek verilebilir. Alaşımlar, uygulamaların gerektirdiği fiziksel özelliklere sahip malzemeler üretilmesinde yaygın olarak kullanılır.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Alaşım">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Kolonya</td>
+                <td>Kolonya, etil alkol, su ve limon, çiçek veya tütün esansı gibi hoş koku veren maddelerin karışımından oluşan bir tür parfüm. Batıda Eau de Cologne ismi ile de biliniyordu.Cilde sürüldükten sonra içerisinde bulunan alkolün hızla buharlaşması ve bu sırada buharlaşan alkol moleküllerinin çevrelerinden ısı çekmesi nedeniyle kullanan kişiye bir serinlik verir ve genelde ferahlamak için kullanılır. Bunun dışında keskin kokusu sebebi ile ayıltıcı özelliği vardır.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Kolonya">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Lehim</td>
+                <td>Lehimleme dolgu malzemesi olarak farklı uygulamalar için çeşitli alaşımlar kullanılır. Örneğin elektronik devre montajında 63% kalay ve 37% kurşun, ötektik alaşımı (ya da performansı ötektik olana çok yakın 60/40) tercih edilir.Ötektik malzeme bir sıcaklık aralığında değil belli bir sabit 'nokta'da erir ve esnek hal (plastik faz) geçirmediği için lehimlemede çeşitli üstünlükleri vardır. Ötektik olmayan bir alaşımda ise soğuma sırasında esnek haldeyken çok küçük kıpırdamalar bile lehimde çatlaklara ve dolayısıyla güvensiz bağlantılara yol açar. Ayrıca ötektik alaşım mümkün en düşük erime noktasına sahip olduğu için lehimleme sırasında parçalardaki gerilim en düşük düzeydedir.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Lehimleme">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Amalgam</td>
+                <td>Amalgam (Arapça al-malgam = merhem), çok kuvvetli çözme özelliğine sahip olan cıvanın, metaller ile yaptığı karışım (alaşım).Sıvı cıva, birçok metali, özellikle bakır, gümüş, altın ve alkalimetalleri (lityum, sodyum, potasyum, vb.) çözer. Amalgam; katı, yumuşak veya sıvı olabilir. Cıva, bazı metal olmayan maddeler ile de amalgam verir. Amalgamın sertliği ve yumuşaklığı ilave edilen metalin miktarına bağlıdır.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Amalgam">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Tunç</td>
+                <td>Bronz veya tunç, bakırın önemli bir alaşımıdır. Önceleri bakır ve kalaydan meydana gelen bakır alaşımlarına bronz denilmekteydi. Bununla birlikte bronz terimi modern kullanımda bakırın bakır-nikel, bakır-berilyum ve bakır-çinko (pirinç) alaşımı dışındaki bütün alaşımları için kullanılmaktadır. Pirinç bakırın çinkoyla yaptığı alaşımdır. %10 çinko ihtiva eden pirince ticari bronz da denilmektedir.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Bronz">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Kola</td>
+                <td>Kola; karamel ile renklendirilen, şekerli veya tatlandırıcılı, kafein içeren, alkolsüz, sodalı bir içecek. Botanikte Cola acuminata olarak geçen ağacın meyveleri ve onun meşrubat olarak kullanılan haline verilen isimdir. Bu meyvenin tohumunun kırmızı bir suyu vardır.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Kola">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Tentürdiyot</td>
+                <td>Tentürdiyot, yaraların nikotik ve bakteriyel cilt enfeksiyonlarının antisepsisinde, yaraların mikrop kapmasının önüne geçmek için sürülen iyotlu tentür.Tentürdiyot, deride mevcut bakterilerin %99.88'ni azaltır. Derinin dezenfeksiyonundan sonra yaklaşık 4 saat 40 dakika süre ile asepsisini sağlar. Gram-negatif bakteriler ile kontamine olmuş ellere uygulandığında, kısa sürede dezenfeksiyon sağlanır. Iyot %2, Sodyum iyodür %2,5 içerir. Çözücü olarak saf etil alkol kullanılır.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Tentürdiyot">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Cam</td>
+                <td>Cam ya da sırça, saydam veya yarı saydam, genellikle sert, kırılgan olan ve sıvıların muhafazasına imkân veren, inorganik amorf yapıda katı bir malzeme. Antik çağlardan beri gerek inşaat malzemesi, gerekse süs eşyası olarak camdan faydalanılmaktadır. Günümüzde hâlen basit araç gereçlerden iletişime ve uzay teknolojilerine kadar çok yaygın bir kullanım alanı vardır. Örneğin pencere camları, cam ambalaj, ayna, lamba, sofra takımı ve optiklerde yaygın pratik, teknolojik ve dekoratif kullanıma sahiptir.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Cam">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Göz Damlası</td>
+                <td>Göz damlası, genellikle tek bir damla veya birkaç damla gibi küçük miktarlarda doğrudan gözün yüzeyine uygulanan sıvı damlalardır. Göz damlaları genellikle gözün tuzluluğuna uygun tuzlu su içerir. Yalnızca tuzlu su ve bazen bir kayganlaştırıcı içeren damlalar, genellikle kuru göz veya kaşıntı veya kızarıklık gibi basit göz tahrişlerini tedavi etmek için yapay gözyaşı olarak kullanılır. Göz damlaları ayrıca çok çeşitli göz hastalıklarını tedavi etmek için bir veya daha fazla ilaç içerebilir. Tedavi edilen duruma bağlı olarak, steroidler, antihistaminikler, sempatomimetikler, beta reseptör blokerleri, parasempatomimetikler, parasempatolitikler, prostaglandinler, nonsteroid antiinflamatuar ilaçlar (NSAID'ler), antibiyotikler, antifungaller veya topikal anestezikler içerebilirler.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Göz_damlası">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+            <tr>
+                <td>Diş Macunu</td>
+                <td>Diş macunu, içerisinde bol miktarda flor ve kalsiyum içeren bir diş temizleme ürünüdür. Macunumsu bir kıvamda ve değişik aromalarda olabilir ancak genellikle mentollü yani nane aromalıdır. Kökeni misvak bitkisinin diş temizleyici özelliğine dayanır.</td>
+                <td>    <a href="https://tr.wikipedia.org/wiki/Diş_macunu">
+                    <img alt="İndir" src="https://img.shields.io/badge/Wikipedia-2C5364?style=for-the-badge&logo=wikipedia&logoColor=white&style=flat" />
+                  </a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
