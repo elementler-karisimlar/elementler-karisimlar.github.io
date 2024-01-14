@@ -9,7 +9,7 @@
 }
 
 .u-section-1 .u-btn-1 {
-  background-image: linear-gradient(45deg, black, #333333);
+  background-image: linear-gradient(45deg, #24343c, #2b4e5e);
   font-weight: 700;
   text-transform: uppercase;
   font-size: 3.125rem;
@@ -20,7 +20,7 @@
 }
 
 .u-section-1 .u-btn-2 {
-  background-image: linear-gradient(45deg, black, #333333);
+  background-image: linear-gradient(45deg, #24343c, #2b4e5e);
   font-weight: 700;
   text-transform: uppercase;
   font-size: 3.125rem;
